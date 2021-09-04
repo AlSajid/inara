@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <title>INARA - Share Calculator</title>
+</head>
+
+<body>
+    <header class=" text-center">
+        <h1 class="my-3 text-5xl">Inara</h1>
+        <hr>
+    </header>
+    <main>
+        <input type="number" placeholder="100" id="amount" class="w-full focus:outline-none text-center my-5 text-5xl">
+
+        <div class="flex flex-wrap lg:w-2/4 xl:w-2/4 m-auto justify-around">
+            <div class="w-64 border-2 bg-blue-500 text-white rounded-2xl p-3 m-2">
+                <h6 class="m-1 text-lg font-bold">Al Sajid</h6>
+                <p class="text-3xl text-right">৳ <span id="sajid">0</span></p>
+            </div>
+            <div class="w-64 border-2 bg-purple-500 text-white rounded-2xl p-3 m-2">
+                <h6 class="m-1 text-lg font-bold">Nurun Nesa Shefa</h6>
+                <p class="text-3xl text-right">৳ <span id="shefa">0 </span></p>
+            </div>
+            <div class="w-64 border-2 bg-purple-500 text-white rounded-2xl p-3 m-2">
+                <h6 class="m-1 text-lg font-bold">Sanjida Sultana NiShi</h6>
+                <p class="text-3xl text-right">৳ <span id="nishi">0 </span></p>
+            </div>
+            <div class="w-64 border-2 bg-purple-500 text-white rounded-2xl p-3 m-2">
+                <h6 class="m-1 text-lg font-bold">Hafsa Sarker</h6>
+                <p class="text-3xl text-right">৳ <span id="hafsa">0</span></p>
+            </div>
+            <div class="w-64 border-2 bg-red-500 text-white rounded-2xl p-3 m-2">
+                <h6 class="m-1 text-lg font-bold">Inara</h6>
+                <p class="text-3xl text-right">৳ <span id="left">0</span></p>
+            </div>
+        </div>
+    </main>
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>
